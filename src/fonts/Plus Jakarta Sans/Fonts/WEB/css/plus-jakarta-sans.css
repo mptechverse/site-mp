@@ -1,0 +1,22 @@
+/**
+* @license
+*
+* Font Family: Plus Jakarta Sans
+* Designed by: Tokotype
+* URL: https://www.fontshare.com/fonts/plus-jakarta-sans
+* © 2026 Indian Type Foundry
+*
+* Plus Jakarta Sans Regular 
+
+*
+*/
+@font-face {
+  font-family: 'PlusJakartaSans-Regular';
+  src: url('../fonts/PlusJakartaSans-Regular.woff2') format('woff2'),
+       url('../fonts/PlusJakartaSans-Regular.woff') format('woff'),
+       url('../fonts/PlusJakartaSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
