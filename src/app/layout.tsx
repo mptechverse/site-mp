@@ -5,7 +5,7 @@ import "./globals.css";
 import FluidTrail from "@/components/originkit/ui/hero-11/fluid-trail";
 
 const zodiak = localFont({
-  src: "../fonts/Poppins-semiBold.woff2",
+  src: "../fonts/Poppins-SemiBold.woff2",
   variable: "--font-zodiak",
   weight: "700",
   style: "normal",
