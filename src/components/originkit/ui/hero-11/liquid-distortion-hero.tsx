@@ -5,7 +5,7 @@
 
 import type { CSSProperties } from "react";
 import FluidTrail from "@/components/originkit/ui/hero-11/fluid-trail";
-import LiquidHover from "@/components/originkit/ui/hero-11/liquid-hover";
+
 
 /** Public asset URLs — use a function so preview rewriters stay stable. */
 function asset(file: string) {
@@ -107,7 +107,11 @@ function BackgroundArtwork() {
       </div>
 
       <div className="ok-h11-liquidCharacter">
-        <LiquidHover imageSrc={asset("portrait-grid.png")} />
+        <img
+          alt=""
+          src={asset("portrait-grid.png")}
+          className="w-full h-full object-cover"
+        />
       </div>
       <div className="ok-h11-portrait" style={portraitMaskStyle}>
         <img alt="" src={asset("portrait.png")} />

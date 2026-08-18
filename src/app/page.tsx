@@ -6,7 +6,6 @@ const Hero11 = dynamic(() => import("@/components/originkit/hero-11"), { ssr: fa
 import SectionUm from "@/components/secWorld";
 import PorqueNos from "@/components/scrollPorqueNos";
 import Passoapasso from "@/components/secPassos";
-import FaqAccordion from "@/components/accordion";
 import Footer from "@/components/footerr";
 import Projetos from "@/components/secProjects";
 import {Editorial} from "@/components/editorial";
