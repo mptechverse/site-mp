@@ -343,9 +343,10 @@ function Footerdemo() {
 
               {/* Instagram */}
 
-              <TooltipProvider>
-  <Tooltip>
+              {/* Instagram */}
 
+<TooltipProvider>
+  <Tooltip>
     <TooltipTrigger
       type="button"
       className="
@@ -355,33 +356,34 @@ function Footerdemo() {
         shrink-0
         items-center
         justify-center
-
         rounded-full
         border
         border-white/10
-
         bg-transparent
         text-white/60
-
         transition-all
         duration-300
-
         hover:border-white/30
         hover:bg-white/5
         hover:text-white
-
         focus:outline-none
         focus-visible:ring-2
         focus-visible:ring-white/30
-
         sm:h-10
         sm:w-10
       "
+      onClick={() => {
+        window.open(
+          "https://instagram.com/mptech.br",
+          "_blank",
+          "noopener,noreferrer"
+        );
+      }}
     >
       <FaInstagram className="h-4 w-4" />
 
       <span className="sr-only">
-        LinkedIn
+        Instagram
       </span>
     </TooltipTrigger>
 
@@ -391,10 +393,9 @@ function Footerdemo() {
           fontFamily: "var(--font-jakarta)",
         }}
       >
-        Conecte-se conosco no LinkedIn
+        Conecte-se conosco no Instagram
       </p>
     </TooltipContent>
-
   </Tooltip>
 </TooltipProvider>
 
