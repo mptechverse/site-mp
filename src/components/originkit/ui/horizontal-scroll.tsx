@@ -165,7 +165,8 @@ export default function HorizontalScroll(): JSX.Element {
 
               bg-[rgb(0,0,24)]
               text-white
-
+              overflow-x-hidden
+              overscroll-x-none
               mx-5
               sm:mx-8
               md:mx-10
@@ -267,6 +268,7 @@ export default function HorizontalScroll(): JSX.Element {
           <section
             className={`
               relative
+              overscroll-x-none
               bg-[rgb(0,0,24)]
 
               ${
@@ -860,7 +862,7 @@ export default function HorizontalScroll(): JSX.Element {
                     className="
                       max-w-[900px]
 
-                      text-[13vw]
+                      text-[12.5vw]
                       sm:text-[10vw]
                       md:text-[8vw]
                       lg:text-[7vw]

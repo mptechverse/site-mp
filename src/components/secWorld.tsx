@@ -36,7 +36,7 @@ export default function SectionUm() {
   className="
     relative
     flex
-  
+    
     min-h-[620px]
     w-full
     items-center

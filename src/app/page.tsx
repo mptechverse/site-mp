@@ -10,24 +10,25 @@ import Footer from "@/components/footerr";
 import Projetos from "@/components/secProjects";
 import {Editorial} from "@/components/editorial";
 import Cta from "@/components/cta";
+import WhatsAppButton from "@/components/botãoWhatsapp";
 
 export default function Home() {
   return (
-    <main className="relative min-h-screen bg-[rgb(0,0,24)] flex flex-col gap-7">
+    <main className="relative min-h-screen bg-[rgb(0,0,24)] flex flex-col gap-7 ">
 
       <div className="relative z-10">
 
         <Navbar />
 
-        <section id="inicio">
+        <section id="inicio" className="overflow-x-hidden  overscroll-x-none">
           <Hero11 />
         </section>
 
-        <section id="world">
+        <section id="world" className="overflow-x-hidden  overscroll-x-none">
           <SectionUm />
         </section>
 
-        <section id="solucoes">
+        <section id="solucoes" className="overflow-x-hidden  overscroll-x-none">
           <Projetos/>
         </section>
 
@@ -35,22 +36,22 @@ export default function Home() {
           <PorqueNos/> 
         </section>
 
-        <section id="processo">
+        <section id="processo" className="overflow-x-hidden  overscroll-x-none">
           <Passoapasso/>
         </section>
 
-        <section id="editorial">
+        <section id="editorial " className="overflow-x-hidden  overscroll-x-none">
           <Editorial/>
         </section>
 
-        <section id="cta">
+        <section id="cta" className="overflow-x-hidden  overscroll-x-none">
           <Cta/>
         </section>
 
-        <section id="footer">
+        <section id="footer" className="overflow-x-hidden  overscroll-x-none">
           <Footer />
         </section>
-
+        <WhatsAppButton />
       </div>
 
     </main>

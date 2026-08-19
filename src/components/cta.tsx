@@ -7,7 +7,7 @@ export default function CTA() {
         eyebrow="MP TECHNOLOGIES"
         title="Sua próxima grande ideia começa aqui..."
         subtitle="Conte o que você precisa e vamos conversar sobre a melhor forma de transformar isso em uma solução digital."
-        ctaLabel="VAMOS CONSTRUIR JUNTOS"
+        ctaLabel="Vamos construir juntos"
         ctaHref="#contato"
       />
     </div>

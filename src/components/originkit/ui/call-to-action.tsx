@@ -13,7 +13,7 @@ interface HeroProps {
 }
 
 export function Hero({
-  eyebrow = "NEXT-GEN PRODUCTIVITY",
+  eyebrow = "",
   title,
   subtitle,
   ctaLabel = "Vamos começar",
@@ -31,13 +31,14 @@ export function Hero({
         items-center
         overflow-hidden
         px-5
-        
+        gap-10
         
         text-center
         text-white
 
         sm:min-h-[780px]
         sm:px-8
+        sm:gap-12
         
         
 
@@ -119,6 +120,11 @@ export function Hero({
           flex-col
           items-center
           justify-center
+
+          gap-5
+
+    sm:gap-4
+    md:gap-5
         "
         initial="hidden"
         whileInView="show"
